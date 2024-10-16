@@ -17,7 +17,7 @@
         }
         static void Thread_2()
         {
-            for(int i = 0;i <100000l ; ++i)
+            for(int i = 0;i <100000; ++i)
             {
                 Monitor.Enter(_lock);
                 num--;
